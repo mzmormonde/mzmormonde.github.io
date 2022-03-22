@@ -1,5 +1,5 @@
 //scroll offset
-$('.nav-link').click(function() {
+$('.scrollLink').click(function() {
     divId = $(this).attr('href');
     $('html, body').animate({
         scrollTop: $(divId).offset().top - 300
